@@ -1,0 +1,51 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "curiosities of the king of sports",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "close",
+                        "quit",
+                        "exit",
+                        "stop",
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "what can i do here",
+                        "how do i use this skill",
+                        "can you help me",
+                        "i need help",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "FrasesIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell me about the king of sports",
+                        "give me a curious fact about the king of sports",
+                        "tell me a curious fact about the king of sports"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
