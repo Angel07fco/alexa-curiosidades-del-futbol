@@ -1,0 +1,51 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "curiosidades del rey de los deportes",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cerrar",
+                        "terminar",
+                        "salir",
+                        "detener",
+                        "cancelar"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "qué puedo hacer aquí",
+                        "cómo uso esta skill",
+                        "puedes ayudarme",
+                        "necesito ayuda",
+                        "ayuda"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "FrasesIntent",
+                    "slots": [],
+                    "samples": [
+                        "platicame sobre el rey de los deportes",
+                        "cuentame sobre el rey de los deportes",
+                        "dime un dato curioso del rey de los deportes"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
